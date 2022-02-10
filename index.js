@@ -1,5 +1,5 @@
 // Your Code Here
-let userName = window.prompt("Please enter youir name:");
+let userName = window.prompt("Please enter your name:");
 let userScore = 0;
 let playAgain = true;
 function playGame() {
@@ -13,6 +13,7 @@ function playGame() {
   window.alert("Your score is: " + userScore);
 }
 while (playAgain === true) {
+  userScore = 0;
   playGame();
   let userChoice = window.prompt(
     "Would you like to play the game again? Answer yes or no."
